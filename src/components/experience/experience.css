@@ -77,4 +77,12 @@ h2 {
         width: 100%;
         padding: 2rem 1rem;
     }
+
+    .container_experience__container {
+        padding-right: 20px;
+    }
+
+    .experience__container > div{
+        margin-left: -30px;
+    }
 }
