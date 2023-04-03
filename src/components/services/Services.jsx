@@ -11,107 +11,76 @@ const Services = () => {
       <div className="container services__container">
         <article className='service'>
           <div className="service__head">
-            <h3>UI/UX Design</h3>
+            <h3>Modern UI/UX Design</h3>
           </div>
 
           <ul className='service__list'>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit, amet consectetur elit.</p>
+              <p>User research.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit, amet consectetur elit.</p>
+              <p>Information architecture.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit, amet consectetur elit.</p>
+              <p>User interface design.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit, amet consectetur elit.</p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit, amet consectetur elit.</p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit, amet consectetur elit.</p>
+              <p>Interaction design.</p>
             </li>
           </ul>
         </article>
         {/* END OF UI/UX */}
         <article className='service'>
           <div className="service__head">
-            <h3>WEB DEVELOPMENT</h3>
+            <h3>FRONTEND DEVELOPMENT</h3>
           </div>
 
           <ul className='service__list'>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit, amet consectetur elit.</p>
+              <p>Optimizing the user experience.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit, amet consectetur elit.</p>
+              <p>Developing and maintaining the UI.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit, amet consectetur elit.</p>
+              <p>Fixing bugs and testing for usability.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit, amet consectetur elit.</p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit, amet consectetur elit.</p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit, amet consectetur elit.</p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit, amet consectetur elit.</p>
+              <p>Single-page application development.</p>
             </li>
           </ul>
         </article>
       {/* END OF WEB DEVELOPMENT */}
       <article className='service'>
           <div className="service__head">
-            <h3>Content Creation</h3>
+            <h3>BACKEND DEVELOPMENT</h3>
           </div>
 
           <ul className='service__list'>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit, amet consectetur elit.</p>
+              <p>Database design and management.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit, amet consectetur elit.</p>
+              <p>API development and integration.</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit, amet consectetur elit.</p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit, amet consectetur elit.</p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit, amet consectetur elit.</p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit, amet consectetur elit.</p>
+              <p>Server-side scripting and programming.</p>
             </li>
           </ul>
         </article>
         {/* END OF CONTENT CREATION */}
+        
       </div>
     </section>
   )

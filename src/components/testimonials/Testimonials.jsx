@@ -18,23 +18,23 @@ import 'swiper/css/pagination';
 const data = [
   {
     avatar: AVTR1,
-    name: 'Sanjay Thakre',
-    review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, tempora omnis! Dicta, in ullam. Eos labore iure natus tenetur molestiae consequatur officia. Odio alias cum saepe reprehenderit fugit doloribus mollitia provident ullam a, voluptatum quasi nihil unde, facilis impedit qui illo. Expedita nostrum illum eaque recusandae natus ad odit molestias?'
+    name: 'Suraj Thool',
+    review: '"I came to Aishwary for a facelift for my site. I have been thoroughly delighted with the experience - Aishwary is a very talented Developer, but also a lot more than that - his ability to grasp things with a fresh pair of eyes is great, and he has the seniority to project manage everything himself. Absolutely brilliant!"'
   },
   {
     avatar: AVTR2,
     name: 'Aditya Yadav',
-    review: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque alias eveniet reprehenderit? Sapiente at officiis, debitis fuga veniam a sed enim temporibus repellendus. Totam ut corrupti sapiente nesciunt sunt neque architecto velit. Quos, quo necessitatibus!'
+    review: '"Aishwary provided top quality, thoughtful and high impact design work with outstanding attention to detail. His communication was excellent from the outset and showed a willingness to persevere until the perfect design was achieved. Obviously passionate about the work, a true professional. Wouldn’t hesitate to recommend."'
   },
   {
     avatar: AVTR3,
     name: 'Rahul Verma',
-    review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi saepe eligendi repudiandae iste nobis sed ex! Provident deserunt totam magnam?'
+    review: '" Fantastic job done by Aishwary for two of our brand logos along with the user interface. We have worked with some of the best ad agencies in the past and working with Aishwary has been an absolute pleasure. His work is no less than the most experienced in the industry "'
   },
   {
     avatar: AVTR4,
-    name: 'Vishal Butolia',
-    review: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad repellat, ullam eaque asperiores expedita aliquam atque eligendi iusto vero laboriosam amet sequi blanditiis quia voluptatum doloremque! Corporis, eius!'
+    name: 'Vedanti Thosare',
+    review: '"Just a quick note to say thank you for your hard work that went in to getting our website live and out there. I was really impressed with the quick turnaround of changes."'
   }
 ]
 
@@ -56,7 +56,7 @@ const Testimonials = () => {
             return(
               <SwiperSlide key={index}      className='testimonial'>
                <div className="client__avatar">
-                <img src={avatar} />
+                <img src={avatar} alt='avatar'/>
                </div>
               <h5 className='client__name'>{name}</h5>
               <small className='client__review'>
